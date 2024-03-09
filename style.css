@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  width: 100px;
+  height: 50px;
+}
+.logo {
+  background-image: url('//img/logo.png');
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+}
+.border {
+  border: 1.5px solid transparent;
+  transition: 0.5s;
+}
+.border:hover {
+  border: 1.5px solid white;
+  transition: 0.5s;
+}
+.first-add {
+  color: darkgrey;
+  font-size: 0.72rem;
+  margin-left: 17px;
+}
+.sec-add {
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.add-icon {
+  display: flex;
+}
+.nav-search {
+  display: flex;
+  width: 650px;
+  height: 35px;
+}
+.select-serch {
+  background-color: #ede9dd;
+  width: 50px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+}
+.search {
+  width: 100%;
+  font-size: 0.85rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  background-color: #ede482;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 0px 5px 5px 0px;
+}
+.first-sign {
+  font-size: 0.72rem;
+}
+.sec-sign {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.cart {
+  display: flex;
+}
+.cart i {
+  font-size: 27px;
+}
+.cart p {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 4px;
+}
+.header-panel {
+  width: 100%;
+  height: 38px;
+  background-color: #133337;
+  color: aliceblue;
+  display: flex;
+}
+.panel-all {
+  display: flex;
+  align-items: center;
+}
+.panel-all i {
+  font-size: 1.2rem;
+  margin: 0px 8px;
+}
+..panel-all p {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.panel-opt {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.panel-opt a {
+  margin-left: 20px;
+  font-size: 0.85rem;
+  color: ghostwhite;
+  text-decoration: none;
+}
+.panel-deals {
+  font-style: italic;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.hero-sec {
+  background-image: url('/img/heropic.jpg');
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hero-msg {
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+}
+.hero-msg a {
+  color: #2a0cad;
+}
+/* shop-sec */
+.shop-sec {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box {
+  width: 23%;
+  height: 400px;
+  background-color: white;
+  background-size: cover;
+  padding: 20px 15px 15px;
+  margin-top: 20px;
+}
+
+.box-img {
+  height: 18rem;
+  background-size: cover;
+  margin: 1rem 0rem;
+}
+.box-img img {
+  height: 17rem;
+  background-size: cover;
+}
+.box p {
+  color: #2a0cad;
+}
+footer {
+  margin-top: 15px;
+}
+.foot-panel {
+  width: 100%;
+  height: 40px;
+  background-color: #394152;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot-panel2 {
+  height: 350px;
+  background-color: #2b364f;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-panel2 ul {
+  margin-top: 20px;
+}
+.foot-panel2 ul a {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+.foot-panel2 ul p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.foot-panel3 {
+  height: 70px;
+  background-color: #2b364f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #50536b;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+  background-image: url('/img/logo.png');
+  background-size: cover;
+}
+.foot-panel4 {
+  height: 400px;
+  background-color: #161c2b;
+  color: grey;
+  display: flex;
+  justify-content: space-evenly;
+}
+.amazon-list ul a {
+  display: block;
+  font-size: 0.8rem;
+}
+.amazon-list ul {
+  display: flex;
+  justify-content: space-evenly;
+}
